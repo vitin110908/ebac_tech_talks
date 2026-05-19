@@ -1,3 +1,5 @@
+@use '../variaveis';
+
 .button {
     padding: 12px;
     font-size: 18px;
@@ -8,7 +10,7 @@
 
     &--primary {
         color: #fff;
-        background-color: #4f2ac3;
+        background-color: variaveis.$colorButton;
     }
 
     @media (max-width: 640px) {
@@ -19,6 +21,5 @@
     @media (max-width: 1024px) {
         display: flex;
         align-items:center;
-        
     }
 }

@@ -1,6 +1,8 @@
 @use 'hero';
 @use 'components/infos_bar';
 @use 'components/buttons';
+@use 'event';
+@use './variaveis';
 
 
 
@@ -9,7 +11,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Roboto, sans-serif;
-    color: #fff;
+    color: variaveis.$textcolor;
     list-style: none;
 }
 
